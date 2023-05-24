@@ -5,7 +5,32 @@ main {
   color: darkorchid;
 }
 main #section-two {
-  color: green;
+  color: blue;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+footer :first-child {
+  background-color: green;
+  border-radius: 24px;
+  height: 124px;
+  width: 124px;
+}
+footer :nth-child(2) {
+  background-color: blue;
+  border-radius: 0px;
+  height: 124px;
+  width: 124px;
+}
+footer :last-child {
+  background-color: salmon;
+  border-radius: 16px;
+  height: 124px;
+  width: 124px;
 }
 
 body {

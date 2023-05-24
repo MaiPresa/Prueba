@@ -1,5 +1,11 @@
 $backgroundColor: burlywood;
 $titleColor: crimson;
 $TextColorOne: darkorchid;
-$TextColortwo: green;
+$TextColortwo: blue;
 
+@mixin box($A:red, $B) {
+    background-color: $A;
+    border-radius: $B;
+    height: 124px;
+    width: 124px;
+}

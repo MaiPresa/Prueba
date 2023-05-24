@@ -1,0 +1,25 @@
+@import 'variables';
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+
+    :first-child {
+        @include box(green, 24px);
+    }
+    
+    :nth-child(2) {
+        @include box(blue, 0px);
+    
+    }
+    
+    :last-child {
+        @include box(salmon, 16px);
+    }
+
+}
+
+
+
